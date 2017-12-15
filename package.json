@@ -1,0 +1,28 @@
+{
+  "name": "knox-box-jwt",
+  "version": "0.3.0",
+  "description": "jwt example",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install; node index.js;",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
